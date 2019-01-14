@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Puppies</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta data-react-helmet="true" name="description" content="See the best image gallery of puppies,dog, animal, pet, 
+     and canine photos. These cute little puppies are available for adoption.">
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.4/foundation-flex.min.css">
+<link rel="stylesheet" href="scss/main.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="navi">
+	  <h1 class="site-name">Puppy image gallery</h1>
+	  <blockquote class="site-header__quote"> 
+		     <p>A dog will teach you unconditional love.<br/> If you can have that in your life, things won't be too bad.</p>
+		    <cite>—Robert Wagner</cite>
+	   </blockquote>
+  </nav>
+</header>
+<!-- Gallery wrapper -->
+<div class="row small-up-2 medium-up-3 large-up-4" id="img-container">
+     <div class="column column-block">
+        <a href="#" data-toggle="galleryModal">
+          <img src="./assets/images/raw/13.jpeg" data-src="./assets/images/raw/13.jpeg" alt="Photo by Aaron Barnaby" />
+        </a>
+      </div>
+
+      <div class="column column-block">
+        <a href="#" data-toggle="galleryModal">
+          <img src="./assets/images/raw/14.jpeg" data-src="./assets/images/raw/14.jpeg" alt="Photo by Geetanjal Khanna" />
+        </a>
+      </div>
+
+      <div class="column column-block">
+        <a href="#" data-toggle="galleryModal">
+          <img src="./assets/images/raw/15.jpeg" data-src="./assets/images/raw/15.jpeg" alt="Photo by Anton Romanov" />
+        </a>
+      </div>
+      
+      <div class="column column-block">
+        <a href="#" data-toggle="galleryModal">
+          <img src="./assets/images/raw/3.jpeg"  data-src="./assets/images/raw/3.jpeg"  alt="Photo by Martin Jernberg" />
+        </a>
+      </div>
+
+      <div class="column column-block">
+        <a href="#" data-toggle="galleryModal">
+          <img src="./assets/images/raw/5.jpeg"  data-src="./assets/images/raw/5.jpeg" alt="Photo by Jaclyn Clark" />
+        </a>
+      </div>
+
+      <div class="column column-block">
+        <a href="#" data-toggle="galleryModal">
+          <img src="./assets/images/raw/7.jpeg"  data-src="./assets/images/raw/7.jpeg" alt="Photo by Clem Onojeghuo" />
+        </a>
+      </div>
+
+      <div class="column column-block">
+        <a href="#" data-toggle="galleryModal">
+          <img src="./assets/images/raw/8.jpeg"  data-src="./assets/images/raw/8.jpeg" alt="Photo by Clem Onojeghuo" />
+        </a>
+      </div>
+
+      <div class="column column-block">
+        <a href="#" data-toggle="galleryModal">
+          <img src="./assets/images/raw/9.jpeg" data-src="./assets/images/raw/9.jpeg"  alt="Photo by Clem Onojeghuo" />
+        </a>
+      </div>
+
+      <div class="column column-block">
+        <a href="#" data-toggle="galleryModal">
+          <img src="./assets/images/raw/10.jpeg"   data-src="./assets/images/raw/10.jpeg" alt="Photo by Scott Webb" />
+        </a>
+      </div>
+
+      <div class="column column-block">
+        <a href="#" data-toggle="galleryModal">
+          <img src="./assets/images/raw/11.jpeg"  data-src="./assets/images/raw/11.jpeg" alt="Photo by Matheus Ferrero" />
+        </a>
+      </div>
+      <div class="column column-block">
+        <a href="#" data-toggle="galleryModal">
+          <img src="./assets/images/raw/13.jpeg" data-src="./assets/images/raw/13.jpeg" alt="Photo by Aaron Barnaby" />
+        </a>
+      </div>
+
+      <div class="column column-block" id="lazy-start">
+        <a href="#" data-toggle="galleryModal">
+          <img src="./assets/images/raw/14.jpeg"  data-src="./assets/images/raw/14.jpeg"  alt="Photo by Geetanjal Khanna" />
+        </a>
+      </div>
+</div>
+<!-- End Gallery wrapper -->
+<div class="js-gallery-overlay gallery-overlay reveal-overlay">
+      <!-- Gallery modal -->
+      <div class="js-gallery-reveal gallery-reveal reveal" id="galleryModal" data-reveal data-overlay="true">
+        <h2 class="js-modal-author modal-author"></h2>
+
+        <img class="js-modal-preview modal-preview" src="" alt="" />
+
+        <button class="js-close-button close-button" data-close aria-label="Close modal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div><!-- .end Gallery modal -->
+    </div><!-- .end Gallery overlay -->
+    
+    <!-- Scripts -->
+<script src="js/main.js"></script>
+<footer class="site-footer">
+ <p class="footer-content"> Built by a wonderful developer.</p>
+</footer>
+</body>
+</html>
