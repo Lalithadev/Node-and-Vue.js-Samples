@@ -1,5 +1,5 @@
-# Node-and-Vue.js-Samples
+Responsive Single page  Image Gallery with Vanilla JS and Cross Browser compatible 
 
-Hi Coders,
+The image gallery in written in Vanilla Js and Foundation Css and HTML5 .
 
-I like to  demo some  Node and vue.js examples.
+This gallery scales up for large data set by facilitating Lazy Loading 
